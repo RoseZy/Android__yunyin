@@ -1,0 +1,28 @@
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_gravity="center|top"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="50%"
+        android:gravity="center"
+        app:layout_widthPercent="100%"
+        android:hint="亲，你说的话"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_gravity="center|bottom"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="50%"
+        app:layout_widthPercent="100%"
+        android:background="@drawable/mic_btn"
+        />
+
+</android.support.percent.PercentFrameLayout>
